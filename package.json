@@ -1,0 +1,19 @@
+{
+  "name": "joesuu-village-community-www",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siimhs/joesuu-village-community-www.git"
+  },
+  "author": "Siim Haas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siimhs/joesuu-village-community-www/issues"
+  },
+  "homepage": "https://github.com/siimhs/joesuu-village-community-www#readme"
+}
