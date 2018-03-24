@@ -1,0 +1,9 @@
+deploy:
+  provider: s3
+  access_key_id: AKIAJQGA3DZTAPNHZPAQ
+  secret_access_key:
+    secure: mvT/IpW4gz1ynCMQWA/MIMP/+4v61+miAU/rZunX9Yb/WPi7U3RcFmRSkU8Qy/CfT/Xv1L+DWYchRAoa2UHk4FJ8eVOLzn3kPRdtJf1CtNiHWGm6pO2IOeW+NxFVoeZBD07ysrwC4n5FiFsmWNq1ZYQtliBXB/lJdWBIKvtKmJ7PiOevV9OfAPoGDD+mXPqbiY/5lQ4h/uZVR333RTfdkiy/tsT45q4Y7/ufbvnhN+Fcy/eWzUhLzB8m1Rhot5/N4Gq+JNYjKkFCwHC1KoCaMMYi6tK3Leg2YOCl5PhngMq/5mbnKKLjcK4HzY0tiEsvL4l1tULXDkf540e/3xUSoSdC8MZ2ti9OSicKzhyNiciSoIJ5wRX7nDUgwnKk7zH+gZMUGjw7gA+a/YzubtbXA9n+/telqNjBr9KRNE2ksz0lomwNbtWWW5Ubmtzs97+zzVLdcoRbDk6GsOcqOnMQUSlNrm0g4ZW7XK+97neXS+jHfih6S9GtbNY/4cj0DtwWW96rrW2fKs+LagmCHLUKD8q/+JdfyIexJONJTAqxjwHyXJx7aXw+ou1g+dQF9qgcUe41KHNczcFyfCHvCnV5fvmoCJLuAothDgJWU8UMIo5Qr7mml3bQ3tz9uu8GguLExbFh61vou8L8s+N/QH8Xw+Y40ywcwfbmki0Wwa9ybVo=
+  bucket: siim.haas.s3.public.bucket
+  acl: public_read
+  on:
+    repo: siimhs/joesuu-village-community-www
