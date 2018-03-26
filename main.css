@@ -1,0 +1,37 @@
+body {
+    padding-top: 100px;
+    margin: 0px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h1, nav, footer, section {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background: #eeeeee;
+    margin-bottom: 30px;
+}
+
+nav > a {
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background: #dddddd;
+}
+
+article {
+    max-width: 800px;
+}
+
+footer {
+    background: #bbbbbb;
+}
+
+footer > a {
+    line-height: 125px;
+    text-align: center;
+}
